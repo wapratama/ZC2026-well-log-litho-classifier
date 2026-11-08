@@ -1,0 +1,21 @@
+# Keep the build context tiny: the image needs only pyproject.toml, uv.lock,
+# lithology/, predict.py and models/model.joblib.
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.ipynb_checkpoints
+.pytest_cache
+.ruff_cache
+data
+tests
+notebook.ipynb
+train.py
+download_data.py
+example_request.py
+models/best_config.json
+*.md
+Dockerfile
+.dockerignore
+deploy
